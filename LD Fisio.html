@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>LD Fisio — Clínica de Fisioterapia em Ribeirão Preto</title>
+<meta name="description" content="Tratamento fisioterapêutico personalizado em Ribeirão Preto. Fisioterapia funcional, RPG, osteopatia e massagem terapêutica.">
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f7f2ea;--ink:#2a2822;--muted:#4d4a42;--green:#2d5f52;--sage:#dde8df;--clay:#b84a1e;--card:#fff;--onclay:#fff;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1c1f1d;--ink:#f1ece3;--muted:#c4bfb4;--green:#8fc4b2;--sage:#2a3a34;--clay:#d1633a;--card:#262b28}}
+:root[data-theme="dark"]{--bg:#1c1f1d;--ink:#f1ece3;--muted:#c4bfb4;--green:#8fc4b2;--sage:#2a3a34;--clay:#d1633a;--card:#262b28}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.65 Nunito,system-ui,sans-serif}
+h1,h2,h3{font-family:"DM Serif Display",Georgia,serif;font-weight:400;margin:0;line-height:1.1}
+p{margin:0 0 14px;color:var(--muted)}
+.w{max-width:1040px;margin:0 auto;padding:0 24px}
+section{padding:72px 0}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg)}
+header .w{display:flex;justify-content:space-between;align-items:center;height:64px}
+.logo{font:400 22px "DM Serif Display",Georgia,serif;color:var(--green);text-decoration:none}
+.btn{display:inline-block;background:var(--clay);color:var(--onclay);font-weight:700;font-size:15px;padding:13px 24px;border-radius:12px;text-decoration:none}
+.btn.sm{background:var(--green);padding:9px 18px;font-size:14px;color:#fff}
+:root[data-theme="dark"] .btn.sm{color:#12201b}
+.btn:hover{filter:brightness(1.1)}
+a:focus-visible{outline:3px solid var(--clay);outline-offset:3px}
+.eyebrow{font-weight:700;font-size:13px;color:var(--green);margin-bottom:10px}
+.hero .w,.split{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+h1{font-size:clamp(40px,6vw,64px);margin:12px 0 22px}
+h2{font-size:clamp(30px,4vw,40px);color:var(--green);margin-bottom:16px}
+.ph{background:var(--sage);display:flex;align-items:flex-end;padding:22px 24px;min-height:340px;font-weight:700;font-size:14px;color:var(--green)}
+.arch{border-radius:999px 999px 18px 18px;min-height:420px}
+.leaf{border-radius:18px 18px 110px 18px;min-height:300px}
+.small{font-size:14px;margin-top:16px}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:32px}
+.card{background:var(--card);border-radius:18px;padding:24px 20px}
+.card.s{background:var(--sage)}
+.card h3{font-size:20px;color:var(--green);margin-bottom:10px}
+.card p{font-size:14px;margin:0}
+.dark2{color:var(--ink)}
+.quotes{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:24px 0 28px}
+.quotes blockquote{margin:0;background:var(--card);border-radius:18px;padding:26px}
+.quotes q{font:400 19px/1.4 "DM Serif Display",Georgia,serif;quotes:none;display:block;color:var(--ink)}
+.quotes cite{display:block;margin-top:14px;font:700 13px Nunito,sans-serif;color:var(--green)}
+.loc{padding:32px 0 72px}
+.btn.o{background:transparent;color:var(--green);border:1px solid var(--green)}
+.cta{background:#2d5f52;color:#fff;text-align:center;padding:72px 0}
+.cta h2{color:#fff}
+.cta p{color:#e3eee8;max-width:640px;margin:0 auto 18px}
+.cta .btn{background:#fff;color:#2d5f52;margin-top:6px}
+.cta .big{font:400 20px "DM Serif Display",Georgia,serif;color:#fff;margin:22px 0 8px}
+footer{background:#2d5f52;color:#cfe0d8;text-align:center;font-size:13px;padding:0 24px 28px}
+@media(max-width:820px){.hero .w,.split,.quotes{grid-template-columns:1fr}.grid{grid-template-columns:1fr 1fr}.arch{min-height:300px}section{padding:48px 0}}
+@media(max-width:520px){.grid{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header><div class="w"><a class="logo" href="#topo">LD Fisio</a><a class="btn sm" href="#contato">Agendar avaliação</a></div></header>
+<main id="topo">
+<section class="hero" style="padding-top:40px"><div class="w">
+<div><div class="eyebrow">Clínica de Fisioterapia • Ribeirão Preto</div>
+<h1>Cuide da sua dor. Recupere seus movimentos. Viva melhor.</h1>
+<p>Tratamento fisioterapêutico personalizado para ajudar você a recuperar sua qualidade de vida, melhorar seus movimentos e cuidar do seu corpo de forma individualizada.</p>
+<a class="btn" href="#contato">Agendar avaliação</a>
+<p class="small">Atendimento personalizado • Ribeirão Preto</p></div>
+<div class="ph arch" role="img" aria-label="Foto de Ligiane ou da clínica">[FOTO: Ligiane ou a clínica]</div>
+</div></section>
+
+<section><div class="w split">
+<div class="ph leaf" role="img" aria-label="Foto de atendimento">[FOTO: atendimento]</div>
+<div><h2>Você não precisa conviver com a dor</h2>
+<p>Dores, limitações de movimento e desconfortos podem afetar sua rotina, seu trabalho e até os momentos que você mais gosta.</p>
+<p>Na LD Fisio, o tratamento começa entendendo você e as necessidades do seu corpo — não apenas o local onde está sentindo dor.</p>
+<a class="btn" href="#contato">Quero agendar minha avaliação</a></div>
+</div></section>
+
+<section style="padding-top:24px"><div class="w">
+<div class="eyebrow">Fisioterapia pensada para você</div>
+<h2 class="dark2" style="color:var(--ink);max-width:560px">Cada corpo possui necessidades diferentes.</h2>
+<p style="max-width:640px">A LD Fisio trabalha com uma abordagem individualizada, buscando compreender as causas das limitações e desenvolver um atendimento adequado às necessidades de cada paciente.</p>
+<div class="grid">
+<div class="card"><h3>Atendimento personalizado</h3><p>Um cuidado direcionado às necessidades específicas de cada pessoa.</p></div>
+<div class="card"><h3>Olhar para o corpo como um todo</h3><p>A avaliação considera o funcionamento do corpo de maneira integrada.</p></div>
+<div class="card"><h3>Experiência profissional</h3><p>A clínica foi fundada pela fisioterapeuta Ligiane Delamanha, formada em 2008 e com atuação clínica desde então.</p></div>
+<div class="card"><h3>Cuidado e atenção</h3><p>Um atendimento próximo, buscando proporcionar mais conforto e qualidade durante o processo de recuperação.</p></div>
+</div></div></section>
+
+<section id="atendimentos" style="padding-top:24px"><div class="w">
+<h2 style="color:var(--ink)">Conheça nossos atendimentos</h2>
+<div class="grid">
+<div class="card s"><h3>Fisioterapia Funcional</h3><p>Atendimento voltado para melhorar movimentos, funcionalidade e qualidade de vida.</p></div>
+<div class="card s"><h3>RPG</h3><p>Abordagem direcionada ao trabalho postural e às necessidades individuais de cada paciente.</p></div>
+<div class="card s"><h3>Osteopatia</h3><p>Técnicas manuais utilizadas dentro de uma avaliação individualizada.</p></div>
+<div class="card s"><h3>Massagem Terapêutica</h3><p>Atendimento direcionado ao relaxamento e ao cuidado corporal.</p></div>
+</div>
+<p style="margin-top:28px"><a class="btn" href="#contato">Conhecer e agendar</a></p>
+</div></section>
+
+<section><div class="w split">
+<div><h2>Experiência que gera confiança</h2>
+<p>A LD Fisio foi fundada em 2011 pela fisioterapeuta Ligiane Delamanha.</p>
+<p>Ligiane é fisioterapeuta formada em 2008 e possui formação e cursos complementares em áreas relacionadas à fisioterapia funcional, terapia manual, postura e tratamento da coluna.</p>
+<p>O objetivo é oferecer um atendimento individualizado, com atenção às necessidades de cada paciente.</p></div>
+<div class="ph arch" role="img" aria-label="Foto de Ligiane Delamanha">[FOTO: Ligiane Delamanha]</div>
+</div></section>
+
+<section style="padding-top:24px"><div class="w">
+<h2 style="color:var(--ink)">O que os pacientes dizem</h2>
+<p><strong style="color:var(--green)">★★★★★ 5,0 no Google</strong> — a LD Fisio possui avaliações positivas de pacientes no Google.</p>
+<div class="quotes">
+<blockquote><q>“Ligiane é uma fisioterapeuta extremamente profissional e responsável. Aplica suas técnicas com perfeição e disponibiliza atenção total ao paciente.”</q><cite>— Eduardo Paz</cite></blockquote>
+<blockquote><q>“É uma profissional excelente, se preocupa com seus pacientes e está sempre disposta a ajudar.”</q><cite>— Priscila Gabriela Caravaca</cite></blockquote>
+</div>
+<a class="btn" href="#contato">Quero conhecer a LD Fisio</a>
+</div></section>
+
+<section class="loc"><div class="w split" style="align-items:start">
+<h2>Estamos em Ribeirão Preto</h2>
+<div><p style="margin-bottom:2px"><strong style="color:var(--ink)">Rua José Leal, 1064 — Alto da Boa Vista</strong></p>
+<p>Ribeirão Preto — SP</p>
+<p>Atendimento de segunda a quinta, das 09h às 19h.</p>
+<a class="btn o" href="https://wa.me/" target="_blank" rel="noopener">Falar pelo WhatsApp</a></div>
+</div></section>
+
+<div class="cta" id="contato"><div class="w">
+<h2>Pronto para começar a cuidar do seu corpo?</h2>
+<p>Não deixe que dores ou limitações continuem atrapalhando sua rotina. Entre em contato com a LD Fisio e converse com a equipe para saber mais sobre o atendimento.</p>
+<div class="big">Agende seu atendimento</div>
+<a class="btn" href="https://wa.me/" target="_blank" rel="noopener">Agendar pelo WhatsApp</a>
+</div></div>
+</main>
+<footer><p style="color:#cfe0d8;padding-top:20px;margin:0">LD Fisio — cuidado personalizado para você.</p></footer>
+</body>
+</html>
